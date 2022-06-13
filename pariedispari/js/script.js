@@ -15,3 +15,9 @@ const userNumber = parseInt(prompt('Scrivi un numero da 1 a 5'));
 // todo test
 console.log('scelta utente:', userBet);
 console.log('numero utente:', userNumber);
+
+// numero random per computer
+let computerNumber = Math.floor(Math.random() * 5) + 1;
+
+// todo test
+console.log('numero computer:', computerNumber);
